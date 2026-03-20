@@ -8,14 +8,14 @@ import java.util.*;
  * 
  * @author Sharon
  */
-public class Task_Manager {
+public class TaskManager {
 
     private Map<String, Task> tasks;
 
     /**
      * Constructs a TaskManager with an empty task collection.
      */
-    public Task_Manager() {
+    public TaskManager() {
         tasks = new HashMap<>();
     }
 
