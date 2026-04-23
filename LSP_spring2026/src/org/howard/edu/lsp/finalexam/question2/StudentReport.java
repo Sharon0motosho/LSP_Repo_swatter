@@ -1,0 +1,27 @@
+package org.howard.edu.lsp.finalexam.question2;
+
+class StudentReport extends Report {
+    private String studentName;
+    private double gpa;
+
+    protected void loadData() {
+        studentName = "John Doe";
+        gpa = 3.8;
+    }
+
+    protected void formatHeader() {
+        System.out.println("=== HEADER ===");
+        System.out.println("Student Report\n");
+    }
+
+    protected void formatBody() {
+        System.out.println("=== BODY ===");
+        System.out.println("Student Name: " + studentName);
+        System.out.println("GPA: " + gpa + "\n");
+    }
+
+    protected void formatFooter() {
+        System.out.println("=== FOOTER ===");
+        System.out.println("End of Student Report\n");
+    }
+}
